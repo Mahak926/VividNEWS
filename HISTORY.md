@@ -1,58 +1,39 @@
-2.8.5 / 2018-11-04
+1.1.2 / 2017-09-23
 ==================
 
-  * Fix setting `maxAge` option to `0`
+  * perf: improve header token parsing speed
 
-2.8.4 / 2017-07-12
+1.1.1 / 2017-03-20
 ==================
 
-  * Work-around Safari bug in default pre-flight response
+  * perf: hoist regular expression
 
-2.8.3 / 2017-03-29
+1.1.0 / 2015-09-29
 ==================
 
-  * Fix error when options delegate missing `methods` option
+  * Only accept valid field names in the `field` argument
+    - Ensures the resulting string is a valid HTTP header value
 
-2.8.2 / 2017-03-28
+1.0.1 / 2015-07-08
 ==================
 
-  * Fix error when frozen options are passed
-  * Send "Vary: Origin" when using regular expressions
-  * Send "Vary: Access-Control-Request-Headers" when dynamic `allowedHeaders`
+  * Fix setting empty header from empty `field`
+  * perf: enable strict mode
+  * perf: remove argument reassignments
 
-2.8.1 / 2016-09-08
+1.0.0 / 2014-08-10
 ==================
 
-This release only changed documentation.
+  * Accept valid `Vary` header string as `field`
+  * Add `vary.append` for low-level string manipulation
+  * Move to `jshttp` orgainzation
 
-2.8.0 / 2016-08-23
+0.1.0 / 2014-06-05
 ==================
 
-  * Add `optionsSuccessStatus` option
+  * Support array of fields to set
 
-2.7.2 / 2016-08-23
+0.0.0 / 2014-06-04
 ==================
 
-  * Fix error when Node.js running in strict mode
-
-2.7.1 / 2015-05-28
-==================
-
-  * Move module into expressjs organization
-
-2.7.0 / 2015-05-28
-==================
-
-  * Allow array of matching condition as `origin` option
-  * Allow regular expression as `origin` option
-
-2.6.1 / 2015-05-28
-==================
-
-  * Update `license` in package.json
-
-2.6.0 / 2015-04-27
-==================
-
-  * Add `preflightContinue` option
-  * Fix "Vary: Origin" header added for "*"
+  * Initial release
