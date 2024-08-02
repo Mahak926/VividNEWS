@@ -1,6 +1,6 @@
-# NEWS Nexus
+# VividNEWS
 
-NEWS Nexus is a responsive web application that enables users to fetch and display news articles from various categories and search queries.
+VividNEWS is a responsive web application that enables users to fetch and display news articles from various categories and search queries.
 
 ## Features
 
