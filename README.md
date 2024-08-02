@@ -35,4 +35,4 @@ No special setup is required other than having an active internet connection to 
 
 ## Author
 
-This project was developed by Shobhit Singh.
+This project was developed by Mahak Gupta and Divyanshi Yadav.
